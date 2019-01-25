@@ -10,7 +10,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-![](\Users\nitsz\Documents\Capstone_project\images\ford_mustang.jpg)
+![](Capstone_project/car.jpg)
 ***
 ## Background
 In 2017, there were almost 6.4 million cars were sold to customers in the United States. 
