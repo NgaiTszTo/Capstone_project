@@ -1,0 +1,16 @@
+---
+title: "Car Proposal"
+author: "Rstudio"
+date: "January 24, 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+![](\Users\nitsz\Documents\Capstone_project\images\ford_mustang.jpg)
+***
+## Background
+In 2017, there were almost 6.4 million cars were sold to customers in the United States. 
