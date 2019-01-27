@@ -3,7 +3,9 @@ title: "Car Project Proposal"
 author: "David"
 date: "January 24, 2019"
 output:
-  html_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -18,6 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <font size="3"> In 2017, there were almost 6.4 million cars were sold to customers in the United States. The market price and selling price of a new or an used car in different areas has a different value. Buying a car we should not only consider the selling price but we should also consider owning cost such as fixing cost, miles per gallon to accurately predict the actual cost of owning a car. Therefore, this project is to help potential car buyers predict the actual cost of owning a car, and thereby help them select an efficient car to save money and prevent overspend in the long run</font>
 
 ***
+
 ## client/ target audience
 
 * First time car buyers
@@ -25,6 +28,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <font size="3"> First time car buyers might not have the knowledge to buy a car. By using our statistics/ data, they can easily compare prices from different dealerships and help them negotiate a better price.</font>
 
 ***
+
 ## data sources
 
 <font size="3"> Most of the data is from Kaggle competition. The datasets that I picked are:</font>
@@ -38,6 +42,7 @@ knitr::opts_chunk$set(echo = FALSE)
  4. Might have other sources
 
 ***
+
 ##Approching to solving this problem
  
  1. Understanding each variable in the column 
@@ -47,8 +52,11 @@ knitr::opts_chunk$set(echo = FALSE)
  3. Merging data
  
  4. Compare and analyze
+ *  Comparing different car brands to find out which one is more efficent and has the better value.  
+ *  Preparing clean data that can apply for machine learning to accurately predict the actual cost of owning a car. 
  
  ***
+
 ##Deliverales
 
 * code
