@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Cleaning datasets
-1  Checking all datasets to make sure all the values are valid
+1  Checking all datasets to make sure all the values are valid by typing anyNA(data$columns)
 
 2  If there are any Null values, eliminating the entire rows if it's unreasonable.
 
