@@ -1,0 +1,27 @@
+---
+title: "steps to clean data"
+author: "David"
+date: "February 21, 2019"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cleaning datasets
+1  Checking all datasets to make sure all the values are valid
+
+2  If there are any Null values, eliminating the entire rows if it's unreasonable.
+
+3  Setting conditions on specific columns : Mileage <= 120000, Year: 2007-2017 to filter some data out;
+
+4. checking if there are any outliers on each datasets or columnns.
+
+5. Eliminating the outliers on each datasets
+
+6. Merging datasets: car_list1, cardataset1, cost_to_maintain, newmfc and store into new variable: newdataset
+
+7. Make sure the merging data does not have duplicate values by checking the Vin columns because each vehicle does have a specific Vin 
